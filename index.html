@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>DOPET</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="./imagens/icon.png" rel="icon">
+  <link href="./imagens/icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400;500&family=Inter:wght@400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS Files -->
+  <link href="assets/css/variables.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: ZenBlog - v1.2.0
+  * Template URL: https://bootstrapmade.com/zenblog-bootstrap-blog-template/
+  * Author: BootstrapMade.com
+  * License: https:///bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1>DOPET</h1>
+      </a>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Início</a></li>
+          <li class="dropdown"><a><span>Categorias</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+            <ul>
+              <li><a href="#posts">Nosso Projeto</a></li>
+              <li><a href="#ongs-perto">ONGs por perto</a></li>
+              <li><a href="#trabalho-ongs">Trabalho das ONGs</a></li>
+            </ul>
+      </nav><!-- .navbar -->
+
+      <div class="position-relative">
+        <a href="#" class="mx-2 js-search-open"><span class="bi-searcah"></span></a>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+
+        <!-- ======= Search Form ======= -->
+        <div class="search-form-wrap js-search-form-wrap">
+          <form action="search-result.html" class="search-form">
+            <span class="icon bi-search"></span>
+            <input type="text" placeholder="Search" class="form-control">
+            <button class="btn js-search-close"><span class="bi-x"></span></button>
+          </form>
+        </div><!-- End Search Form -->
+
+      </div>
+
+    </div>
+
+  </header><!-- End Header -->
+
+  <main id="main">
+    <!-- ======= Hero Slider Section ======= -->
+    <section id="hero-slider" class="hero-slider">
+      <div class="container-md" data-aos="fade-in">
+        <div class="row">
+          <div class="col-12">
+            <div class="swiper sliderFeaturedPosts">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <a class="img-bg d-flex align-items-end" style="background-image: url('./imagens/cachorro\ 3.png');">
+
+                    <div class="img-bg-inner">
+                      <h2>IMPORTÂNCIA DAS ONGs</h2>
+                      <p>Um cachorro ferido, muitas vezes pode encontrar uma pessoa que o
+                        acolha, cuide de seus machucados e que o dê um lar cheio de amor, mas nem sempre a realidade é
+                        essa.</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a class="img-bg d-flex align-items-end" style="background-image: url('./imagens/cachorro\ 6.png');">
+                    <div class="img-bg-inner">
+                      <p>Às vezes, a única chance desse cachorro ser feliz e sobreviver é quando uma ONG o encontra e
+                        possui estrutura para dar a ele o atendimento veterinário necessário, restaurando a sua saúde.
+                        Mas também, avaliando candidatos a adoção do mesmo, para que o processo seja de sucesso e o
+                        animal não volte para as ruas.</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a class="img-bg d-flex align-items-end" style="background-image: url('./imagens/gatinho2.png');">
+                    <div class="img-bg-inner">
+                      <p>Um cachorro com família, mas que vive preso, não recebe comida e é utilizado para procriação
+                        constante, gerando lucro para seus donos, também precisa do apoio de uma organização da
+                        sociedade civil, que tenha poderes para acionar os donos judicialmente e levá-los a assumir a
+                        responsabilidade pelo que fizeram ao animal.</p>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="swiper-slide">
+                  <a class="img-bg d-flex align-items-end" style="background-image: url('./imagens/cachorro\ 7.png');">
+                    <div class="img-bg-inner">
+                      <p>Muitas vezes, um único indivíduo não consegue salvar esse animal e é preciso a pressão de uma
+                        determinada organização, como exemplo uma ong de animais, (que pode, além da justiça, também
+                        acionar a mídia) para que o animal possa ser resgatado e encaminhado para um lugar seguro.
+
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="custom-swiper-button-next">
+                <span class="bi-chevron-right"></span>
+              </div>
+              <div class="custom-swiper-button-prev">
+                <span class="bi-chevron-left"></span>
+              </div>
+
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- End Hero Slider Section -->
+
+    <!-- ======= Post Grid Section ======= -->
+    <section id="posts" class="posts">
+      <div class="container" data-aos="fade-up">
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <div class="post-entry-1 lg formacao-logo">
+              <a><img src="./imagens/logo-projeto.png" alt="" class="img-fluid"></a>
+              <div class="post-meta"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span> <span>08 de
+                  Junho</span></div>
+              <h2><a href=>Formação de nossa identidade visual</a></h2>
+              <p> A nossa logo consiste na junção de patas de cães e gatos. Colocamos esses dois
+                animais como representação, pois são os principais pets adotados. A cor predominante da
+                nossa identidade visual é azul. Essa cor representa confiança (precisamos da
+                confiança das ONG’s para divulgar o nosso projeto), segurança (precisamos de elementos seguros para
+                guardar nossas informações) e criatividade (precisamos ser criativos para criar algo inovador que se
+                destaque). E, por último, temos os elementos verbais: a palavra DOPET é a junção de “doação” e “pet”,
+                Senac Pinda é o lugar da criação do projeto e 2022 o ano de criação. </p>
+              <div class="d-flex align-items-center author">
+                <div class="name">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="row g-5 post-dogs">
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a><img src="./imagens/cachorra1.png" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span> <span>11 de
+                      Novembro</span></div>
+                  <h2><a href=>Cadela castrada e vacinada!</a></h2>
+                </div>
+                <div class="post-entry-1">
+                </div>
+                <div class="post-entry-1">
+                </div>
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href=><img src="./imagens/cachorro 2.png" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span> <span>8 de
+                      Novembro</span></div>
+                  <h2><a href=>Cachorro castrado e vacinado para adoção!</a></h2>
+                </div>
+                <div class="post-entry-1">
+                </div>
+                <div class="post-entry-1">
+                </div>
+              </div>
+              <div class="col-lg-4 border-start custom-border">
+                <div class="post-entry-1">
+                  <a href=><img src="./imagens/gatinho1.png" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span> <span>22 de
+                      Outubro</span></div>
+                  <h2><a href=>Gatinhos filhotes para adoção!</a></h2>
+                </div>
+                <div class="post-entry-1">
+                </div>
+                <div class="post-entry-1">
+                </div>
+              </div>
+            </div>
+            <hr>
+            <div class="col-lg-10 post-bottom-dogs">
+              <h3>NOSSO PROJETO</h3>
+              <p>Nosso objetivo foi o desenvolvimento de uma página web que conecte ONGS de cães e
+                gatos com
+                pessoas que
+                queiram colaborar com doações. Apresentamos uma lista de ONGs e também um espaço de doações, contendo
+                explicação sobre os meios e processos de doações. Muitas ONGs não têm boas estrutura financeiras
+                para manter mais cães e gatos, como um grande exemplo, a alimentação por conta da falta de recursos.
+                Nosso
+                trabalho resolve propõe uma solução à esse problema, levando informação, divulgando o belo trabalho
+                realizado e criando pontes entre doadores, tutores e as ONGs.</p>
+            </div>
+          </div>
+
+        </div> <!-- End .row -->
+      </div>
+    </section>
+    <!-- End Post Grid Section -->
+
+
+    <!-- ======= Culture Category Section ======= -->
+    <section class="category-section" id="ongs-perto">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>ONG's perto de você</h2>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <ul h5 class="card-title"><b>AMERICANA-SP</b></h5>
+                  <li class="card-text">Associação dos Amigos dos Animais de Campinas </li>
+                  <li class="card-text">AAAC Focinho Abandonado </li>
+                  <li class="card-text">Animal de Rua GAAR </li>
+                  <li class="card-text">Vida Animal IVVA Laticão </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <ul h5 class="card-title"><b>RIBERÃO PRETO-SP</b></h5>
+                  <li class="card-text">CãoPaixão </li>
+                  <li class="card-text">Res-Gatinhos </li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <ul h5 class="card-title"><b>SANTOS-SP</b></h5>
+                  <li class="card-text">Mapan Animal </li>
+                  <li class="card-text">SOS </li>
+                  <li class="card-text">Viva Bicho </li>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <ul h5 class="card-title"><b>PINDAMONHANGABA-SP</b></h5>
+                  <li class="card-text">CEPATAS</li>
+                  <li class="card-text">Adotepinda </li>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <ul h5 class="card-title"><b>TAUBATÉ-SP</b></h5>
+                  <li class="card-text">Associação Protetora dos Animais de Taubaté </li>
+                  <li class="card-text">APATA</li>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card">
+              <div class="card-body">
+                <ul h5 class="card-title"><b>SÃO PAULO-SP</b></h5>
+                  <li class="card-text">Amigos de 4 Patas Amigos dos Bichos </li>
+                  <li class="card-text">Batalha Animal </li>
+                  <li class="card-text">Catland Confraria dos</li>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      </div>
+      </div>
+    </section><!-- End Culture Category Section -->
+
+    <!-- ======= Business Category Section ======= -->
+    <section class="category-section" id="trabalho-ongs">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header d-flex justify-content-between align-items-center mb-5">
+          <h2>ONG’s</h2>
+          <div>Trabalho das ONGs</a></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-9 order-md-2">
+
+            <div class="d-lg-flex post-entry-2">
+              <a class="me-4 thumbnail d-inline-block mb-4 mb-lg-0">
+                <img src="./imagens/DOGS.png" alt="" class="img-fluid">
+              </a>
+              <div>
+                <div class="post-meta"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span> <span></span>
+                </div>
+                <h3>
+                  <a>O QUE SÃO ONGs;</a>
+                </h3>
+                <p>A sigla significa Organização Não Governamental. Isso quer dizer que todo o trabalho é feito sem
+                  nenhum tipo de contribuição vinda de uma instituição do governo. Normalmente, as pessoas realizam as
+                  ações de maneira voluntária.
+
+                  Em uma ONG de adoção de animais, o trabalho voltado para os bichinhos. São ações de resgate de
+                  situação de maus tratos, controle de natalidade, retirada de rua e muitas outras medidas dedicadas aos
+                  pets que já sofreram tanto.
+
+                  Caso você não consiga adotar um pet, pode doar ração, dinheiro e outras coisas para ajudar no sustento
+                  das ONGs. Algumas ainda abrem espaço para voluntários em eventos e dias da semana. É sempre legal
+                  divulgar o trabalho delas para as adoções serem mais frequentes.</p>
+                <div class="d-flex align-items-center author">
+                  <div class="name">
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="post-entry-1 border-bottom">
+                  <a><img src="./imagens/DOGS2.png" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span>
+                    <span></span>
+                  </div>
+                  <h2 class="mb-2"><a>DICAS PARA ADOÇÃO</a></h2>
+                  <span class="author mb-3 d-block">O primeiro passo para a adoção é avaliar bem toda a rotina. Ela vai
+                    mudar por causa do bichinho. Leve em conta o dia a dia
+                    e o espaço do lar para a vida desse animalzinho ser bem mais feliz e segura</span>
+                  <p class="mb-4 d-block">Para facilitar a adoção do pet, você pode olhar as
+                    patinhas dele. Normalmente, se elas são grandes, o porte dele deve seguir esse padrão. Sempre
+                    pergunte ao pessoal da ONG sobre o comportamento do bichinho. Assim, você já pode ter uma ideia de
+                    como será o cotidiano com ele.
+
+                  </p>
+                </div>
+
+                <div class="post-entry-1">
+                </div>
+              </div>
+              <div class="col-lg-8">
+                <div class="post-entry-1">
+                  <a><img src="./imagens/DOGS3.png" alt="" class="img-fluid"></a>
+                  <div class="post-meta"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span>
+                    <span></span>
+                  </div>
+                  <h2 class="mb-2"><a>Como a adoção funciona?</a></h2>
+                  <p class="mb-4 d-block">O processo para adotar animais é feito de forma minuciosa, mas muito
+                    tranquila. O objetivo da ONG é garantir que o bichinho vá para um lar estruturado e não esteja mais
+                    em uma situação de perigo, além de se sentir amado e seguro. Isso recebe o nome de adoção
+                    responsável de animais.
+
+                    São realizadas perguntas pessoais, abordando assuntos como moradia, profissão e motivo da adoção do
+                    bichinho de estimação. Esse questionário verifica a compatibilidade com os animaizinhos que estão na
+                    ONG.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span> <span></span>
+              </div>
+              <h2 class="mb-2"><a>Quais ações são realizadas?</a></h2>
+              <span class="author mb-3 d-block">Uma ONG de animais para adoção realiza muitos trabalhos voltados para o
+                conforto e a segurança dos bichinhos. Essas ações são feitas diariamente, com um cuidado imediato, que
+                garanta o fim de traumas irreversíveis. A seguir, separamos algumas realizações.</span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span> <span></span>
+              </div>
+              <h2 class="mb-2"><a>Resgate</a></h2>
+              <span class="author mb-3 d-block">Infelizmente, é muito comum encontrar animais em situação precária.
+                Casos de abandono, maus tratos e até acidentes sem socorro imediato são algumas ocorrências diárias que
+                um centro de adoção de animais atende. O resgate sempre é feito visando o conforto e a retirada do
+                bichinho do lugar. </span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span> <span></span>
+              </div>
+              <h2 class="mb-2"><a>Cuidados médicos</a></h2>
+              <span class="author mb-3 d-block">Após o resgate, o bichinho é levado para o centro de adoção de animais e
+                passa por uma avaliação médica. Como explicamos, muitos deles estão feridos e precisam ser imediatamente
+                checados por um veterinário. A ONG de adoção responsável de animais cuida para isso ser feito de forma
+                rápida.</span>
+            </div>
+
+            <div class="post-entry-1 border-bottom">
+              <div class="post-meta"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span> <span></span>
+              </div>
+              <h2 class="mb-2"><a>Castração</a></h2>
+              <span class="author mb-3 d-block">Essa é uma das ações mais importantes realizadas por esse tipo de ONG. O
+                número de bichinhos que não possuem castração aumenta a população que vive na rua, já que algumas fêmeas
+                têm várias ninhadas de forma consecutiva.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section><!-- End Business Category Section -->
+
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-content">
+      <div class="container">
+
+        <div class="row g-5">
+          <div class="col-lg-4">
+            <h3 class="footer-heading">Agradecimentos</h3>
+            <p>Agradecemos o professor Wesley Fioreze que prontamente nos orientou em todo o processo de desenvolvimento
+              do projeto sempre nos auxiliando para o melhor.
+              Agradecemos as ONGs, de mogo geral, por seu lindo serviço realizado.
+              E por fim, agradecemos a ONG CEPATAS de Pindamonhangaba, que nos mostrou como é a realidade desses locais
+              e pela divulgação dos animais.
+              Nosso projeto é um meio para ajudar os animais, se você tiver como nos ajudar, doe ração, ou adote um pet!
+            </p>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h3 class="footer-heading">Navegação</h3>
+            <ul class="footer-links list-unstyled">
+              <li><a href="index.html"><i class="bi bi-chevron-right"></i> inicio</a></li>
+              <li><a href=><i class="bi bi-chevron-right"></i> Categorias</a></li>
+            </ul>
+          </div>
+          <div class="col-6 col-lg-2">
+            <h3 class="footer-heading">Categorias</h3>
+            <ul class="footer-links list-unstyled">
+              <li><a href="#posts"><i class="bi bi-chevron-right"></i> Nosso Projeto</a></li>
+              <li><a href="#ongs-perto"><i class="bi bi-chevron-right"></i> ONGs por perto</a></li>
+              <li><a href="#trabalho-ongs"><i class="bi bi-chevron-right"></i> Trabalho das ONGs</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-4">
+            <h3 class="footer-heading">páginas</h3>
+
+            <ul class="footer-links footer-blog-entry list-unstyled">
+              <li>
+                <a class="d-flex align-items-center">
+                  <img src="./imagens/logo-projeto.png" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span>
+                      <span></span>
+                    </div>
+                    <span>NOSSO PROJETO</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a class="d-flex align-items-center">
+                  <img src="./imagens/DOGS2.png" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span>
+                      <span></span>
+                    </div>
+                    <span>ONG’s PERTO DE VOCÊ</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                <a class="d-flex align-items-center">
+                  <img src="./imagens/DOGS3.png" alt="" class="img-fluid me-3">
+                  <div>
+                    <div class="post-meta d-block"><span class="date">DOPET</span> <span class="mx-1">&bullet;</span>
+                      <span></span>
+                    </div>
+                    <span>TRABALHO DAS ONG’s</span>
+                  </div>
+                </a>
+              </li>
+
+              <li>
+                </a>
+              </li>
+
+            </ul>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-legal">
+      <div class="container">
+
+        <div class="row justify-content-between">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            <div class="copyright">
+            </div>
+
+            <div class="credits">
+              <!-- All the links in the footer should remain intact. -->
+              <!-- You can delete the links only if you purchased the pro version. -->
+              <!-- Licensing information: https://bootstrapmade.com/license/ -->
+              <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/herobiz-bootstrap-business-template/ -->
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    </div>
+    </div>
+
+  </footer>
+
+  <a href="#" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
